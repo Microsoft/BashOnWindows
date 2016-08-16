@@ -33,3 +33,14 @@ Issues may be closed by the original poster at any time.  We will close issues i
 - Stack Overflow: https://stackoverflow.com/questions/tagged/wsl
 - Community powered list of programs that work and don't work: https://github.com/ethanhs/WSL-Programs
 - Community powered discussion forum: http://wsl-forum.qztc.io/
+
+###FAQs/Tips and Tricks
+
+Q: Can I run any other distro besides Ubuntu?
+A: Its not officially supported but you may be able to run Arch (and likely others) using the steps by @goreliu here: https://github.com/Microsoft/BashOnWindows/issues/8#issuecomment-240026910
+
+Q: Can I upgrade Ubuntu to any other release? 14.04 is old. 
+A: People reporting success here: https://github.com/Microsoft/BashOnWindows/issues/482
+
+Q: I love this feature, can I get it? 
+A: Please suggest one uservoice link above. Please note that Microsoft (the author of this FAQ section doesn't work for them) is resource constrained and have said that they are focusing on the most use development related scenarios first.
