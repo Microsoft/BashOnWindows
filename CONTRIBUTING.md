@@ -95,7 +95,7 @@ $ strace -ff -o <outputfile> <command>
 ### 8) Detailed Logs
 Some bugs will require more detailed logs to help determine the cause.  There is a CMD command to start detailed logging and another to stop.  The logs are generated locally into the working directory.
 
-#### Starting logging
+#### Start collecting logs
 
 ```
 logman.exe create trace lxcore_kernel -p {0CD1C309-0878-4515-83DB-749843B3F5C9} -mode 0x00000008 -ft 10:00 -o .\lxcore_kernel.etl -ets 
@@ -103,7 +103,7 @@ logman.exe create trace lxcore_user -p {D90B9468-67F0-5B3B-42CC-82AC81FFD960} -f
 logman.exe create trace lxcore_service -p {B99CDB5A-039C-5046-E672-1A0DE0A40211} -ft 1:00 -rt -o .\lxcore_service.etl -ets 
 ```
 
-#### Stopping logging
+#### Stop collecting logs
 
 ```
 logman.exe stop lxcore_kernel -ets
@@ -111,7 +111,7 @@ logman.exe stop lxcore_user -ets
 logman.exe stop lxcore_service -ets
 ```
 
-#### Generated files
+#### Generated log files
 
 The files generated will be in the directory where the above commands ran.  The files will be named:
 
