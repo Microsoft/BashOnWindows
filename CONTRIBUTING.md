@@ -98,23 +98,17 @@ Some bugs will require more detailed logs to help determine the cause.  There is
 #### Starting logging
 
 ```
-
-C:\> logman.exe create trace lxcore_kernel -p {0CD1C309-0878-4515-83DB-749843B3F5C9} -mode 0x00000008 -ft 10:00 -o .\lxcore_kernel.etl -ets 
-logman create trace lxcore_adss -p {754E4536-6735-4194-BE81-1374BD2E9B0D} -ft 1:00 -rt -o .\lxcore_adss.etl -ets 
-logman create trace lxcore_user -p {D90B9468-67F0-5B3B-42CC-82AC81FFD960} -ft 1:00 -rt -o .\lxcore_user.etl -ets 
-logman create trace lxcore_service -p {B99CDB5A-039C-5046-E672-1A0DE0A40211} -ft 1:00 -rt -o .\lxcore_service.etl -ets 
-
+logman.exe create trace lxcore_kernel -p {0CD1C309-0878-4515-83DB-749843B3F5C9} -mode 0x00000008 -ft 10:00 -o .\lxcore_kernel.etl -ets 
+logman.exe create trace lxcore_user -p {D90B9468-67F0-5B3B-42CC-82AC81FFD960} -ft 1:00 -rt -o .\lxcore_user.etl -ets 
+logman.exe create trace lxcore_service -p {B99CDB5A-039C-5046-E672-1A0DE0A40211} -ft 1:00 -rt -o .\lxcore_service.etl -ets 
 ```
 
 #### Stopping logging
 
 ```
-
-C:\> logman stop lxcore_kernel -ets
-logman stop lxcore_adss -ets
-logman stop lxcore_user -ets
-logman stop lxcore_service -ets
-
+logman.exe stop lxcore_kernel -ets
+logman.exe stop lxcore_user -ets
+logman.exe stop lxcore_service -ets
 ```
 
 #### Generated files
@@ -122,7 +116,6 @@ logman stop lxcore_service -ets
 The files generated will be in the directory where the above commands ran.  The files will be named:
 
 ```
-lxcore_adss.etl
 lxcore_kernel.etl
 lxcore_service.etl
 lxcore_user.etl
