@@ -127,6 +127,4 @@ lxcore_user.etl
 
 #### Submitting logs
 
-To submit the details logs, see the instructions in the [Additional
-information](#7-additional-information) section. Do not attach them to
-GitHub issues, as they may contain sensitive information.
+To submit the details logs, attach them to your GitHub issue.
