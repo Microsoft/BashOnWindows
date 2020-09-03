@@ -5,9 +5,9 @@ This repo is for:
 
   > Do not open Github issues for Windows crashes (BSODs) or security issues. Please direct all Windows crashes and security issues to secure@microsoft.com. Issues with security vulnerabilities may be edited to hide the vulnerability details.
 
-- Discussions around Windows Subsystem for Linux
+- Surrounding discussions about the Windows Subsystem for Linux.
 
-## Reporting Issues in Windows Console or WSL Text Rendering/User Experience
+## Reporting issues in Windows Console or WSL text rendering/user experience
 
 Note that WSL distro's launch in the Windows Console (unless you have taken steps to launch a 3rd party console/terminal). Therefore, *please file UI/UX related issues in the [Windows Console issue tracker](https://github.com/microsoft/console)*. 
 
