@@ -8,8 +8,8 @@ body:
 - type: markdown
   attributes:
     value: |
-      Please [search for existing issues](https://github.com/microsoft/WSL/issues) before creating a new one!
-      If you'd like to create a new bug report, please [read the guidance here](https://github.com/Microsoft/WSL/blob/master/CONTRIBUTING.md) before getting started! This will save you time.
+      Please [search for existing issues](https://github.com/microsoft/WSL/issues) before creating a new one.
+      If you'd like to create a new bug report, please [read the guidance here](https://github.com/Microsoft/WSL/blob/master/CONTRIBUTING.md) before getting started. This will save you time.
       
 - type: input
   attributes:
