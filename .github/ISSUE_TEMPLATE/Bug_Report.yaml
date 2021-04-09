@@ -25,9 +25,7 @@ body:
   attributes:
     label: WSL Version
     description: |
-      Tell us whether the issue is on WSL 2 and/or WSL 1; you can do this by running `cat /proc/version` to check the kernel version. 
-      Example WSL 2 string: Linux version 5.4.91-microsoft-standard-WSL2 (oe-user@oe-host) (gcc version 9.3.0 (GCC)) #1 SMP Mon Jan 25 18:39:31 UTC 2021
-      Example WSL 1 string: Linux version 4.4.0-21349-Microsoft (Microsoft@Microsoft.com) (gcc version 5.4.0 (GCC) ) #1001-Microsoft Sun Mar 28 11:10:00 PST 2021
+      Tell us whether the issue is on WSL 2 and/or WSL 1. You can tell your WSL version by running `wsl -l -v`. 
     placeholder: "WSL 2"
   validations:
     required: true
