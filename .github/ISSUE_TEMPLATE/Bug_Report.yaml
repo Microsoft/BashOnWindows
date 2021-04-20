@@ -1,5 +1,5 @@
 ---
-name: "WSL Bug Report"
+name: "WSL - Bug Report"
 description: Report a bug on Windows Subsystem for Linux
 issue_body: true
 body:
