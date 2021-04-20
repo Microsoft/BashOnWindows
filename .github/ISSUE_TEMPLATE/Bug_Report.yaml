@@ -1,9 +1,6 @@
 ---
 name: "WSL Bug Report"
 description: Report a bug on Windows Subsystem for Linux
-title: ""
-labels: ""
-assignees: ""
 issue_body: true
 body:
 - type: markdown
