@@ -16,34 +16,26 @@ A title succinctly describing the issue.
 `Traceroute not working.`
 
 ### 2) Windows version / build number
-Your Windows build number.  This can be gathered from the CMD prompt using the `cmd.exe --version` command.
+Your Windows build number.  This can be gathered from the CMD prompt using the `ver` command.
 
-```cmd.exe
-C:\ cmd.exe --version
-Microsoft Windows [Version 10.0.21354.1]
+```
+C:\> ver
+Microsoft Windows [Version 10.0.14385]
 ```
 
-Note: The Windows Insider builds contain many updates and fixes. If you are running on the Creators Update (10.0.15063) please check to see if your issue has been resolved in a later build.  If you are running on a Version below (10.0.14393), please try to update your Version.
+Note: The Windows Insider builds contain many updates and fixes. If you are running on the Creators Update (10.0.15063) please check to see if your issue has been resolved in a later build.  If you are running on the Anniversary Update (10.0.14393), please try updating to the Creators Update.
 
 #### Example:
 
-`Microsoft Windows [Version 10.0.21354.1]`
+`Microsoft Windows [Version 10.0.16170]`
 
 ### 3) Steps required to reproduce
 
 Should include all packages and environmental variables as well as other required configuration.
 
-#### Example: On linux 
+#### Example:
 
 `$ sudo apt-get install traceroute && traceroute www.microsoft.com`
-
-#### Example: On Windows
-
-``
-`$ cmd.exe` 
-`CD C:\Windows\System32\`
-`tracert.exe`
-``
 
 ### 4) Copy of the terminal output
 
@@ -137,14 +129,16 @@ To collect WSL logs follow these steps:
 
 #### Open Feedback Hub and enter the title and description of your issue
 
-- Open Feedback hub and create a new issue by pressing `Windows Key + F` on your keyboard. 
+- Open Feedback hub and create a new issue by link [Feedback Hub](Feedback-Hub:?referrer=WSL&tabID=2&newFeedback=true&CategoryId=25&ContextId=677&feedbackType=2&form=1) or pressing `Windows Key + F` on your keyboard. 
 - Enter in the details of your issue:
    - In `Summarize your feedback` copy and paste in the title of your Github Issue
    - In `Explain in more detail` copy and paste a link to your Github Issue
 
 ![GIF Of networking instructions](img/networkinglog1.gif)
 
-#### Choose the WSL category 
+#### Choose the WSL category
+
+This step can be skipped if Feedback Hub is opened by Link. 
 
 - Select that your issue is a `Problem`
 - Choose the `Developer Platform` category and the `Windows Subsystem for Linux` subcategory
